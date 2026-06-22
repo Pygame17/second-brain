@@ -3,15 +3,15 @@ __pycache__/
 *.pyc
 Thumbs.db
 
-# Ignorar contenido personal de los campos
-01_Cuerpo/*
-02_Mente/*
-03_Carrera/*
-04_Negocios/*
-05_Relaciones/*
-06_Hogar/*
+# Ignorar notas personales dentro de los campos, pero NO las carpetas en sí
+01_Cuerpo/**
+02_Mente/**
+03_Carrera/**
+04_Negocios/**
+05_Relaciones/**
+06_Hogar/**
 
-# Excepto las plantillas (públicas)
+# Permitir las plantillas (públicas)
 !01_Cuerpo/_plantilla.md
 !02_Mente/_plantilla.md
 !03_Carrera/_plantilla.md
